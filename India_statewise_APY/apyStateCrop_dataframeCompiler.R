@@ -6,7 +6,7 @@ library(tidyr)
 
 
 # Specify the path to the zipped file
-zip_folder <- "W:/Dropbox/IIMA Work/IIMA/PIK/India APY/apyFoodGrainsUPAG.zip"  # Change this to your zip file path after download
+zip_folder <- "W:/PIK R/spatialRealizations/India_statewise_APY/apyFoodGrainsUPAG.zip"  # Change this to your zip file path after download
 
 
 # Define the function to read and merge CSV files directly from a zipped folder
@@ -70,6 +70,17 @@ items_to_exclude <- c("Shree Anna /Nutri Cereals",
 # Filter out the specified items from the final dataframe
 apyStateCrop <- apyStateWiseCropWisePanel %>%
   filter(!Crop %in% items_to_exclude)
+
+# Converting production data from bales to 1000t for  "Cotton", "Jute", "Sannhemp", "Mesta"
+
+apyStateCrop <- apyStateCrop %>%
+  mutate(
+    Production = case_when(
+      Crop == "Cotton" ~ Production * 0.17, # Thousand Bales * 170 Kg = Thousand * 0.17 Tonnes
+      Crop %in% c("Jute", "Sannhemp", "Mesta") ~ Production * 0.18, # Thousand Bales * 180 Kg = Thousand * 0.18 Tonnes
+      TRUE ~ Production  # Keep original for others
+    )
+  )
 
 # Display the first few rows of the filtered dataframe
 head(apyStateCrop)
