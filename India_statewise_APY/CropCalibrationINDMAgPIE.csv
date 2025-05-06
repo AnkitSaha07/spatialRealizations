@@ -1,0 +1,31 @@
+Crop,FAOoriginalItem_fromWebsite,ProductionItem,FoodBalanceItem,SupplyUtilizationItem,k
+Rice,27|Rice,27|Rice,2807|Rice and products,27|Rice,rice_pro
+Wheat,15|Wheat,15|Wheat,2511|Wheat and products,15|Wheat,tece
+Maize,56|Maize (corn),56|Maize (corn),2514|Maize and products,56|Maize (corn),maiz
+Barley,44|Barley,44|Barley,2513|Barley and products,44|Barley,tece
+Jowar,79|Millet,79|Millet,2517|Millet and products,79|Millet,trce
+Bajra,79|Millet,79|Millet,2517|Millet and products,79|Millet,trce
+Ragi,79|Millet,79|Millet,2517|Millet and products,79|Millet,trce
+Small Millets,79|Millet,79|Millet,2517|Millet and products,79|Millet,trce
+Tur,"197|Pigeon peas, dry","197|Pigeon peas, dry","2549|Pulses, Other and products","197|Pigeon peas, dry",puls_pro
+Gram,"191|Chick peas, dry","191|Chick peas, dry","2549|Pulses, Other and products","191|Chick peas, dry",puls_pro
+Urad,211|Other pulses nec,211|Other pulses nec,"2549|Pulses, Other and products",211|Other pulses nec,puls_pro
+Moong,211|Other pulses nec,211|Other pulses nec,"2549|Pulses, Other and products",211|Other pulses nec,puls_pro
+Lentil,"201|Lentils, dry","201|Lentils, dry","2549|Pulses, Other and products","201|Lentils, dry",puls_pro
+Other Pulses,211|Other pulses nec,211|Other pulses nec,"2549|Pulses, Other and products",211|Other pulses nec,puls_pro
+Groundnut,"242|Groundnuts, excluding shelled","242|Groundnuts, excluding shelled",2552|Groundnuts,"242|Groundnuts, excluding shelled",groundnut
+Castorseed,265|Castor oil seeds,265|Castor oil seeds,"2570|Oilcrops, Other",265|Castor oil seeds,rapeseed
+Sesamum,289|Sesame seed,289|Sesame seed,2561|Sesame seed,289|Sesame seed,rapeseed
+Nigerseed,"339|Other oil seeds, nec","339|Other oil seeds, nec","2570|Oilcrops, Other","339|Other oil seeds, nec",rapeseed
+Soybean,236|Soya beans,236|Soya beans,2555|Soyabeans,236|Soya beans,soybean
+Sunflower,267|Sunflower seed,267|Sunflower seed,2557|Sunflower seed,267|Sunflower seed,sunflower
+Rapeseed & Mustard,270|Rape or colza seed,270|Rape or colza seed,2558|Rape and Mustardseed,270|Rape or colza seed,rapeseed
+Linseed,333|Linseed,333|Linseed,"2570|Oilcrops, Other",333|Linseed,rapeseed
+Safflower,280|Safflower seed,280|Safflower seed,"2570|Oilcrops, Other",280|Safflower seed,rapeseed
+Sugarcane,156|Sugar cane,156|Sugar cane,2536|Sugar cane,156|Sugar cane,sugr_cane
+Cotton,"767|Cotton lint, ginned","767|Cotton lint, ginned","767|Cotton lint, ginned","767|Cotton lint, ginned",fibres
+Jute,"780|Jute, raw or retted",,,"780|Jute, raw or retted",
+Mesta,,,,,
+Tobacco,,,,,
+Sannhemp,,,,,
+Guarseed,,,,,
